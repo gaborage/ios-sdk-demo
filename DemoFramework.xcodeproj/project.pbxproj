@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		054ACFE723E395D900D32F3D /* DemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054ACFDD23E395D900D32F3D /* DemoFramework.framework */; };
+		054ACFE723E395D900D32F3D /* LoyaltySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054ACFDD23E395D900D32F3D /* LoyaltySDK.framework */; };
 		054ACFEC23E395D900D32F3D /* DemoFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACFEB23E395D900D32F3D /* DemoFrameworkTests.swift */; };
 		054ACFEE23E395D900D32F3D /* DemoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 054ACFE023E395D900D32F3D /* DemoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		054ACFF923E3A5AB00D32F3D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054ACFF723E3A5AB00D32F3D /* LoginViewController.swift */; };
+		054ACFFA23E3A5AB00D32F3D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054ACFF823E3A5AB00D32F3D /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054ACFDD23E395D900D32F3D /* DemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		054ACFDD23E395D900D32F3D /* LoyaltySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoyaltySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		054ACFE023E395D900D32F3D /* DemoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFramework.h; sourceTree = "<group>"; };
 		054ACFE123E395D900D32F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054ACFE623E395D900D32F3D /* DemoFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054ACFEB23E395D900D32F3D /* DemoFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFrameworkTests.swift; sourceTree = "<group>"; };
 		054ACFED23E395D900D32F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054ACFF723E3A5AB00D32F3D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		054ACFF823E3A5AB00D32F3D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054ACFE723E395D900D32F3D /* DemoFramework.framework in Frameworks */,
+				054ACFE723E395D900D32F3D /* LoyaltySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +66,7 @@
 		054ACFDE23E395D900D32F3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				054ACFDD23E395D900D32F3D /* DemoFramework.framework */,
+				054ACFDD23E395D900D32F3D /* LoyaltySDK.framework */,
 				054ACFE623E395D900D32F3D /* DemoFrameworkTests.xctest */,
 			);
 			name = Products;
@@ -73,6 +77,8 @@
 			children = (
 				054ACFE023E395D900D32F3D /* DemoFramework.h */,
 				054ACFE123E395D900D32F3D /* Info.plist */,
+				054ACFF723E3A5AB00D32F3D /* LoginViewController.swift */,
+				054ACFF823E3A5AB00D32F3D /* LoginViewController.xib */,
 			);
 			path = DemoFramework;
 			sourceTree = "<group>";
@@ -115,7 +121,7 @@
 			);
 			name = DemoFramework;
 			productName = DemoFramework;
-			productReference = 054ACFDD23E395D900D32F3D /* DemoFramework.framework */;
+			productReference = 054ACFDD23E395D900D32F3D /* LoyaltySDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		054ACFE523E395D900D32F3D /* DemoFrameworkTests */ = {
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					054ACFDC23E395D800D32F3D = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					054ACFE523E395D900D32F3D = {
 						CreatedOnToolsVersion = 11.3;
@@ -178,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054ACFFA23E3A5AB00D32F3D /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054ACFF923E3A5AB00D32F3D /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 		054ACFF223E395D900D32F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P39P5D38CS;
@@ -348,22 +358,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DemoFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iguama.DemoFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = LoyaltySDK;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		054ACFF323E395D900D32F3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P39P5D38CS;
@@ -372,22 +386,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DemoFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = iguama.DemoFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = LoyaltySDK;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		054ACFF523E395D900D32F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P39P5D38CS;
 				INFOPLIST_FILE = DemoFrameworkTests/Info.plist;
@@ -406,6 +423,7 @@
 		054ACFF623E395D900D32F3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P39P5D38CS;
 				INFOPLIST_FILE = DemoFrameworkTests/Info.plist;
